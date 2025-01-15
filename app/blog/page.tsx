@@ -2,10 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { FaCalendarAlt, FaUser, FaChevronRight } from "react-icons/fa";
 
-// Replace with your actual image paths
-import blogImage1 from "../public/blog1.jpg.png";
-import blogImage2 from "../public/blog2.jpg.png";
-import blogImage3 from "../public/blog3.jpg.png";
+
 
 const BlogPage = () => {
   return (

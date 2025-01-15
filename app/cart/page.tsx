@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Cart() {
     return (
       <div className="min-h-screen bg-gray-100">
@@ -43,7 +45,9 @@ export default function Cart() {
                 <span>Rs. 250,000.00</span>
               </div>
               <button className="w-full mt-4 bg-yellow-500 text-white py-2 rounded-md hover:bg-yellow-600">
+                <Link  href="/checkout">
                 Proceed to Checkout
+                </Link>
               </button>
             </div>
           </div>
@@ -59,3 +63,12 @@ export default function Cart() {
     );
   }
   
+
+
+
+
+
+
+
+
+

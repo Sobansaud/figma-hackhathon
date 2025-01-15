@@ -1,5 +1,8 @@
 
 
+
+
+
 "use client";
 import { useCart } from "@/components/CartContext"
 
@@ -106,7 +109,7 @@ const Shop = () => {
         </div>
 
         {/* Pagination */}
-        {/* <div className="flex justify-center items-center mt-10">
+        <div className="flex justify-center items-center mt-10">
           <button
             onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
             className="px-4 py-2 bg-gray-200 text-gray-600 rounded-l"
@@ -130,7 +133,7 @@ const Shop = () => {
           >
             Next
           </button>
-        </div> */}
+        </div>
       </main>
           <img src='nero.png.png' alt='all' width={2000} height={200}></img>
 
@@ -139,6 +142,3 @@ const Shop = () => {
 };
 
 export default Shop;
-
-
-

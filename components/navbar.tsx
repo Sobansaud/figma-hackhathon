@@ -37,9 +37,7 @@ export const Navbar = () => {
           <Link href="/contact" className="text-md font-medium text-gray-600 hover:text-black">
             Contact
           </Link>
-          <Link href="/compare" className="text-md font-medium text-gray-600 hover:text-black">
-            Comparison
-          </Link>
+         
         </div>
 
         {/* Icons */}

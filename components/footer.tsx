@@ -43,8 +43,14 @@ const Footer: React.FC = () => {
               <Link href="/checkout" passHref>
                 CheckOut
               </Link>
+
               
             </li>
+            <li>
+             <Link href="/compare" className="text-md font-medium text-gray-600 hover:text-black">
+                        Comparison
+                      </Link>
+                      </li>
           </ul>
         </nav>
 
